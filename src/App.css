@@ -22,7 +22,9 @@ body {
 }
 
 
-
+active {
+  color: #13e42f;
+}
 
 body p {
   color: #aa6363;
@@ -31,3 +33,4 @@ body p {
 .shadow-effect {
   box-shadow: 10px 5px 10px 50 rgba(143, 114, 114, 0.88);
 }
+
