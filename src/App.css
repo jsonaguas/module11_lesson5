@@ -1,0 +1,33 @@
+/* App.css */
+body {
+  background-color: #aa6363 !important;
+}
+
+.navbar a:active {
+  color: #13e42f !important;
+}
+
+.navbar {
+  background-color: #c52525;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #18f1ea;
+}
+
+
+
+
+body p {
+  color: #aa6363;
+}
+
+.shadow-effect {
+  box-shadow: 10px 5px 10px 50 rgba(143, 114, 114, 0.88);
+}
