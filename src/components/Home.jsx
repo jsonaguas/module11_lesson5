@@ -1,4 +1,5 @@
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
+import marvelWall from '../assets/marvel_wall.jpg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,13 +11,15 @@ export default function Home() {
             </Row>
             <Row className="d-flex justify-content-center align-items-center">
                 <Card className="text-center" style={{ width: '24rem' }}>
+                <Card.Img variant="top" src={marvelWall} alt="Sample Image" />
                     <Card.Body>
                         <Card.Text>
                             Explore the Marvel Universe by browsing through the characters and comics.
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button className="shadow-effect" href="/browse">Browse Characters</Button>
+                        {/* <Button className="shadow-lg" href="/browse">Browse Characters</Button> */}
+                        <button className="bottom-1" type="button">Browse Characters!</button>
                     </Card.Footer>
                 </Card>
             </Row>

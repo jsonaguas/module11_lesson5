@@ -1,6 +1,6 @@
-/* App.css */
+
 body {
-  background-color: #aa6363 !important;
+  background-color: #e7c1c1 !important;
 }
 
 .navbar a:active {
@@ -22,15 +22,21 @@ body {
 }
 
 
-active {
-  color: #13e42f;
+.active {
+  color: #13e42f !important;
 }
 
 body p {
-  color: #aa6363;
+  color: #e58219;
 }
 
-.shadow-effect {
-  box-shadow: 10px 5px 10px 50 rgba(143, 114, 114, 0.88);
+.bottom-1 {
+  box-shadow: 8px 5px 6px 1px rgba(222, 33, 33, 0.88) !important;
+  border-radius: 10px;
+  border:1px solid #000;
+   
 }
 
+.row>h1 {
+  color: #bf0a0a;
+}
